@@ -1,0 +1,248 @@
+body{}
+
+main{
+    background-color: #f8f8f8;
+    padding-bottom: 90px;
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.caixaDestaques{
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+.cabecalho .coluna{}
+
+.cabecalho figure{}
+.cabecalho figure img{}
+
+.Pesquisa{
+    display: flex;
+}
+.Pesquisa input{
+    width: 500px;
+    height: 40px;
+    font-display: 20px;
+    border: 1px solid #cccccc;
+    padding: 0 10px;
+    border-radius: 2px 0 0 2px;
+}
+.Pesquisa button{
+    width: 60px;
+    border: 1px solid #cccccc;
+    border-left: none;
+    border-radius: 0 2px 2px 0;
+}
+.Pesquisa button img{}
+
+.imgUser{}
+.imgUser img{
+    width: 40px;
+    border-radius: 100%;
+}
+
+.destCanal{
+    background-image: url(./img/destaque.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.sectCanal{
+    background-color: #ffffff;
+}
+.sectCanal .container{}
+
+.detalheCanal{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+.detalheCanal figure{
+    margin-right: 20px;
+}
+.detalheCanal figure img{
+    border-radius: 100%;
+    width: 80px;
+}
+
+.infos{}
+.infos h1{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.infos p{
+    font-size: 15px;
+}
+
+.navCanal{}
+.navCanal ul{
+    display: flex;
+    align-items: center;
+}
+.navCanal ul li{}
+.navCanal ul li a{
+    color: #606060;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.navCanal ul li button{
+    background-color: transparent;
+    border: none;
+    width: 18px;
+}
+.navCanal ul li button img{}
+
+.caixaDestaques .colunaEsq{
+    width: 800px;
+}
+.caixaDestaques .colunaEsq h2{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.caixaDestaques .colunaDir{
+    width: 400px;
+}
+
+.videosDestaque{}
+.videosDestaque h2{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.listaVideos{}
+.listaVideos li{
+    display: flex;
+    border-bottom:  1px solid #ccc;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+} 
+.listaVideos li figure{
+    margin-right: 20px;
+} 
+.listaVideos li figure img{
+    width: 200px;
+}
+.listaVideos li div{}
+.listaVideos li div h3{
+    font-size: 18px;
+    margin-bottom:  5px;
+}
+.listaVideos li div h3 span{
+    font-size: 13px;
+}
+.listaVideos li div p{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.botaoFila{
+    background-color: #d9d9d9;
+    border: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 2px 8px;
+    color: #606060;
+}
+
+.adicionarFila{
+    margin-top: 20px;
+}
+
+.adicionarFilacabecalho{
+    background-color: #fff;
+    padding: 20px;
+}
+.adicionarFilacabecalho h2{
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+.adicionarFilacabecalho p{
+    font-size: 15px;
+}
+
+.lista{
+    padding: 20px 20px;
+}
+.lista li{
+    display: flex;
+    margin-bottom: 10px;
+}
+.lista li figure{
+    margin-right: 10px;
+}
+.lista li figure img{
+    width: 100px;
+}
+.lista li div{}
+.lista li div h3{
+    font-size: 15px;
+}
+.lista li div span{
+    display: none;
+}
+.lista li div p{
+    display: none;
+}
+.lista li div button{
+    display: none;
+}
+
+.todosVideos{}
+.todosVideos .container{}
+
+.todosVideos h2{
+    text-transform: uppercase;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    padding: 30px 30px
+}
+.todosVideos h2 img{
+    margin-right: 10px;
+}
+
+.listaTodos{
+    display: flex;
+    justify-content: space-between;
+}
+.listaTodos li{
+    width: 200px;
+}
+.listaTodos li figure{}
+.listaTodos li figure img{
+    width: 100%;
+}
+.listaTodos li div{}
+.listaTodos li div h3{
+    font-size: 17px;
+}
+.listaTodos li div span{
+    font-size: 13px;
+    margin: 10px 0;
+}
+.listaTodos li div p{
+    display: none;
+}
+.listaTodos li div button{
+    margin-top: 10px;
+}
